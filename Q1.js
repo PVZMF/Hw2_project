@@ -1,0 +1,16 @@
+//1....................................
+alert("console.log(Number('234a'):"+ Number("234a"))
+//2....................................
+alert("console.log(Number('1'+2+2)):"+ Number('1'+2+2))
+//3....................................
+let apples = "2";
+let oranges = "3";
+alert("console.log(+apples + +oranges):"+ (+apples + +oranges))
+//4....................................
+let counter =1;
+alert("console.log(2* ++counter):"+ 2* ++counter)
+//1....................................
+alert("console.log(undefined == null):"+ (undefined == null))
+alert("console.log(undefined === null):"+ (undefined === null))
+alert("console.log(null == '\\n0\\n'):"+ (null == "\n0\n"))
+alert("console.log(null === +'\\n0\\n'):"+ (null === +"\n0\n"))
